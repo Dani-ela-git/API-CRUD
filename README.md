@@ -2,7 +2,7 @@
 
 API REST para gerenciamento de usuários, desenvolvida com **Java 17** e **Spring Boot 3**.
 
-## 📋 Sobre o projeto
+##  Sobre o projeto
 
 Este projeto foi criado com o objetivo de praticar e consolidar os principais conceitos de desenvolvimento de APIs REST com Spring Boot, incluindo:
 
@@ -12,7 +12,7 @@ Este projeto foi criado com o objetivo de praticar e consolidar os principais co
 - Boas práticas REST (status HTTP, versionamento de rotas, DTOs)
 - Banco de dados em memória para desenvolvimento
 
-## 🚀 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **Java 17**
 - **Spring Boot 3.x**
@@ -23,5 +23,3 @@ Este projeto foi criado com o objetivo de praticar e consolidar os principais co
 - **Jakarta Validation** — validação de dados (`@NotBlank`, `@Email`, etc.)
 - **Lombok** — redução de código boilerplate
 - **Maven** — gerenciamento de dependências
-
-## 📁 Estrutura do projeto
