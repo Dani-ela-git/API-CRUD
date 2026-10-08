@@ -23,3 +23,35 @@ Este projeto foi criado com o objetivo de praticar e consolidar os principais co
 - **Jakarta Validation** — validação de dados (`@NotBlank`, `@Email`, etc.)
 - **Lombok** — redução de código boilerplate
 - **Maven** — gerenciamento de dependências
+
+### Responsabilidade de cada camada
+
+| Camada | Responsabilidade |
+|--------|------------------|
+| `controller` | Receber requisições HTTP e devolver respostas |
+| `service` | Aplicar regras de negócio |
+| `repository` | Comunicar com o banco de dados |
+| `model` | Representar as tabelas do banco |
+| `dto` | Definir o formato de entrada/saída da API |
+
+## Como executar
+
+### Pré-requisitos
+
+- Java 17+
+- Maven (ou usar o wrapper `./mvnw`)
+
+### Passos
+
+```bash
+# Clone o repositório
+git clone <url-do-repositorio>
+cd api-crud
+
+# Execute a aplicação
+./mvnw spring-boot:run
+
+# Ou, se tiver Maven instalado globalmente
+mvn spring-boot:run
+
+### A API estará disponível em: http://localhost:8080/h2-console
